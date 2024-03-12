@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.r1 {
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 50px;
+}
+
+.r2 input {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.11);
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    padding-left: 5px;
+
+}
+
+.r2 button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgba(0, 149, 246);
+    color: white;
+    font-size: 20px;
+    opacity: 7;
+}
+
+.r3 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.r3 hr {
+    position: relative;
+
+}
+
+.r3 .o {
+    position: relative;
+    top: -48px;
+    background: #fff;
+    width: 10%;
+    margin-left: 44%;
+    margin-right: 25%;
+    font-weight: bold;
+
+}
+
+.r4 {
+    text-align: center;
+}
+
+.r4 a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.r4 .c9 {
+    width: 30%;
+}
+
+.r5 p {
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(0, 78, 246);
+    cursor: pointer;
+}
+.r5 p a{
+    text-decoration: none;
+}
+
+.r5 {
+    text-align: center;
+
+}
+
+.r5 h5 {
+    margin-top: 50px;
+}
+
+.r6 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.r7 {
+    padding-top: 100px;
+
+}
+
+@media screen and (max-device-width: 480px)  {
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .c9 a{
+        font-size: 15px;
+    }
+    .c9{
+        width: 40%;
+    }
+    .r2{
+        width: 80%;
+
+    }
+}
